@@ -1,0 +1,100 @@
+
+#banner
+{
+    border-top:solid 2px #ddd;
+    padding: 15px 0 0 0;
+}
+
+#slogan
+{
+     text-align: center;
+     color:#303030;
+    margin-top: 10px;
+}
+
+#slider
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#carousel
+{
+    /*border-top: #ddd solid 2px;*/
+    width:800px;
+    height: 300px;
+    margin: auto;
+    display: relative;
+}
+
+#carousel img
+{
+    /*width: 600px;*/
+    /*height: 250px;*/
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+}
+
+#content .blue
+{
+    color:#1b6d85;
+}
+
+#content .underline
+{
+    border-bottom: #ddd solid 2px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+#content .red
+{
+    color:#d62728;
+}
+#content .news img
+{
+    width: 80px;
+    height: 80px;
+}
+
+.lightBox a img{
+    margin-bottom: 15px;
+}
+
+#calendar {
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 0 10px;
+}
+#content .searchpost
+{
+    margin-top: 30px;
+}
+
+/*.navbar .navbar-nav .nav-item a.nav-link{*/
+    /*text-align: center;*/
+    /*padding-left: 1rem;*/
+    /*padding-right: 1rem;*/
+    /*font-weight: 600;*/
+/*}*/
+/*.navbar .navbar-nav .nav-item a:hover{*/
+    /*background: #fff;*/
+/*}*/
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+/*.dropdown-item:hover>.dropdown-menu {*/
+    /*display: block;*/
+/*}*/
+/*.dropdown-menu{*/
+    /*margin: 0;*/
+/*}*/
+/*.dropdown-menu a.dropdown-item{*/
+    /*color: #666;*/
+    /*font-size: 80%;*/
+/*}*/
+/*.dropdown-menu a.dropdown-item:hover{*/
+    /*color: #333;*/
+/*}*/
